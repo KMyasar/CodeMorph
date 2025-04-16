@@ -1,0 +1,18 @@
+.container {
+    margin: 50px auto !important;
+    width: 60% !important; /* Imporant to avoid Css override*/
+    color: white !important;
+    }
+    /* Custom CSS for input boxes */
+    .form-control {
+      background-color: #2a2e3a !important;
+      color: white !important;
+      border: 1px solid #444 !important;
+    }
+
+    .form-control:focus {
+      background-color: #2a2e3a !important;
+      color: white !important;
+      border-color: #007bff !important;
+      box-shadow: none !important;
+    }

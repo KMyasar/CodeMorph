@@ -1,0 +1,112 @@
+
+        /* Add these new styles for sidebar integration */
+        /* Adjust container padding*/
+        /* Custom CSS for input boxes */
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 100px;
+        }
+
+        .left {
+            max-width: 50%;
+        }
+
+        .left h1 {
+            font-size: 36px;
+            color: whitesmoke;
+        }
+
+        .left h1 span {
+            background: linear-gradient(to right, #ff416c, #833ab4);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            color: white;
+        }
+
+        .contact-boxes {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .contact-box {
+            display: flex;
+            align-items: center;
+            background: rgba(249, 246, 246, 0.1);
+            padding: 10px 15px;
+            border-radius: 8px;
+            width: 48%;
+        }
+
+        .contact-details {
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            margin-top: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: whitesmoke;
+        }
+
+        .right {
+            background: rgba(255, 255, 255, 0.138);
+            padding: 30px;
+            border-radius: 10px;
+            width: 40%;
+
+        }
+
+        .right h2 {
+            font-size: 24px;
+        }
+
+        .right p {
+            font-size: 14px;
+            color: #ddd;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 10px;
+        }
+        .right input,
+        .right textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 25px;
+            background: transparent;
+            border: 1px solid #ddd;
+            color: white;
+           
+        }
+        ::placeholder{
+            color: rgb(67, 63, 63);
+        }
+        .right textarea {
+            height: 100px;
+        }
+
+        .right button {
+            width: 100%;
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+        }
+    

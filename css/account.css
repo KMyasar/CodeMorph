@@ -1,0 +1,9 @@
+ /* Change placeholder color */
+ input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Light white color */
+  }
+
+  /* Add space between navbar and form */
+  .form-container {
+    margin-top: 50px; /* Adjust space as needed */
+  }

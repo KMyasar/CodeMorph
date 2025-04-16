@@ -1,0 +1,43 @@
+# ----------------------
+# OS / System Files
+# ----------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux system junk
+*~
+
+# ----------------------
+# Log files
+# ----------------------
+*.log
+logs/
+*.pid
+
+# ----------------------
+# Environment / Secrets
+# ----------------------
+.env
+.env.*
+.env.local
+.env.backup
+
+# ----------------------
+# Cache / Sessions
+# ----------------------
+cache/
+tmp/
+temp/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.cache
+*.log
+
+# ----------------------
+# Composer / Vendor
+# ----------------------
+vendor/
