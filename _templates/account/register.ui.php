@@ -1,0 +1,44 @@
+<main class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="container d-flex justify-content-between align-items-center w-75">
+      <!-- Left Section -->
+      <div class="left-content text-center" style="color: white;">
+        <p style="font-family: 'Courier New', Courier, monospace;">"Make your Code Conversion easier with just one Click"</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PkZNo7MFNFg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+  
+      <!-- Right Section (Signup Form + Google Sign-in) -->
+      <div class="d-flex flex-column align-items-center">
+        <div class="form-container text-center p-4 rounded" style="background: transparent;">
+
+          <h1 style="color: white;">Create Your Account</h1>
+          <p style="color: white;"><b>Sign up to Code Conversion</b></p>
+          <form>
+            <label for="email" style="color: white;">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required 
+              style="color: white; background-color: transparent; padding: 10px; border: 1px solid #ccc; border-radius: 5px; width: 100%;" />
+
+            <label for="phone" style="color: white;">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required 
+              style="color: white; background-color: transparent; padding: 10px; border: 1px solid #ccc; border-radius: 5px; width: 100%;" />
+
+            <label for="password" style="color: white;">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required 
+              style="color: white; background-color: transparent; padding: 10px; border: 1px solid #ccc; border-radius: 5px; width: 100%;" />
+
+            <button type="submit" class="btn-sign" style="width: 100px; margin-bottom: 1rem; margin-top: 1rem;">Sign Up</button>
+          </form>
+
+          <div class="mt-2" style="text-align: left; color: white;">
+            <a style="color: white;" href="./loginpage.html">Already have an account? <span style="color: white;">Sign in</span></a>
+          </div>
+        </div>
+        <!-- Google Sign-up button -->
+        <div class="mt-3">
+          <button class="google-btn" style="background-color: #fff; color: #000; border: 1px solid #ccc; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+            <img src="Assets/Icons/icons8-google-20.png" alt="Google Icon" style="width: 20px; margin-right: 8px;"> 
+            Sign in with Google
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>

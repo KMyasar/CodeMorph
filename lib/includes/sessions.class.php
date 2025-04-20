@@ -103,11 +103,11 @@ class sessions
     }
     public static function load_templates($param)
     {
-        $path = $_SERVER["DOCUMENT_ROOT"] . "/CodeMorph/_templates/$param.php";
+        $path = $_SERVER["DOCUMENT_ROOT"] . "_templates/$param.php";
         if (is_file($path)) {
             include_once "$path";
         } else {
-            // sessions::load_templates("error");
+            echo "<h1>404 Error File Not Found</h1>";
         }
     }
     /**
@@ -116,14 +116,7 @@ class sessions
      */
     public static function Render_page()
     {
-        $file = basename(sessions::CurrentScript(), ".php");
-        if(file_exists($file)){
-            sessions::load_templates($file);
-        }
-        else{
-
-            sessions::load_templates("error");
-        }
+        sessions::load_templates("_master");
         
     }
 }
