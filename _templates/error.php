@@ -1,0 +1,3 @@
+<?php
+echo "<h1>404 Error File Not Found</h1>";
+?>
